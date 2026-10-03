@@ -25,7 +25,10 @@ setup(
     },
     entry_points={
         'console_scripts': [
-       		 'publisher = my_robot_package.publisher:main'
+       		 'publisher = my_robot_package.publisher:main',
+		'subscriber = my_robot_package.subscriber:main',
+		'calculator_server = my_robot_package.calculator_server:main',
+		'calculator_client = my_robot_package.calculator_client:main',
         ],
     },
 )
