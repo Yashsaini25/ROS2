@@ -1,0 +1,7 @@
+int32 target_position
+---
+int32 final_position
+bool success
+---
+int32 current_position
+int32 progress
