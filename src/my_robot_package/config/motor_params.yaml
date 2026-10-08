@@ -1,0 +1,3 @@
+motor_controller:
+  ros__parameters:
+    motor_speed: 80
